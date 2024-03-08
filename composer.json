@@ -1,0 +1,28 @@
+{
+    "name": "janaina2jsantos/crud_posts",
+    "description": "Crud Posts with PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+    {
+      "name": "Janaina Santos",
+      "email": "janaina2jsantos@gmail.com"
+    }
+  ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "1.1.2",
+        "coffeecode/uploader": "1.0.*",
+        "league/plates": "3.*"
+    }
+}
