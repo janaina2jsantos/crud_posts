@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 namespace Source\Controllers;
+
 use League\Plates\Engine;
 use CoffeeCode\DataLayer\Connect;
 

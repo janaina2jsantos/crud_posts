@@ -1,5 +1,5 @@
 # CRUD POSTS WITH PHP
-This is a CRUD of posts built with HTML, CSS, Bootstrap, PHP and AJAX.
+This is a project built with a PHP MVC Framework, also including HTML, CSS, Bootstrap, JavaScript, JQuery, AJAX and MySQL.
 
 ---
 ### STEPS TO RUN THE PROJECT
@@ -15,6 +15,6 @@ git clone git@github.com:janaina2jsantos/crud_posts.git
 ```bash
 php -S localhost:8000
 ```
-- The project has an admin user that you can use to log in with the email admin@admin.com and password: 123456.
+- The project has an admin user that you can use to log in with email: admin@admin.com and password: 123456.
 
 - Enjoy the project!

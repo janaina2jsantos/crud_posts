@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 namespace Source\BUS;
+
 use CoffeeCode\DataLayer\Connect;
 use Source\Models\Post;
 
@@ -13,6 +14,7 @@ class PostBUS
 			$conn = Connect::getInstance();
 
 			if (!$conn) {
+                // throw new \Exception("Error connecting to the database.");
                 header("Location: ./500.php");
             }
 

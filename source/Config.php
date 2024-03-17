@@ -3,14 +3,15 @@
 define("SITE", "The City Times");
 define("JS_VERSION", "1.0");
 
-define("BASE_URL", "http://" . $_SERVER['SERVER_NAME'] . "/crud_posts");
+// db local
+define("BASE_URL", "http://" . $_SERVER['SERVER_NAME'] . "/your_folder");
 define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
-    "host"   => "localhost",
-    "port"   => "3306",
-    "dbname" => "cms",    // dbname
-    "username" => "###", // username
-    "passwd"   => "###", // password
+    "host"   => "###",
+    "port"   => "###",
+    "dbname" => "###",
+    "username" => "###",
+    "passwd"   => "###",
     "options"  => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
