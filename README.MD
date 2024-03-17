@@ -1,5 +1,5 @@
 # CRUD POSTS WITH PHP
-This is a project built with a PHP MVC Framework, also including HTML, CSS, Bootstrap, JavaScript, JQuery, AJAX and MySQL.
+This is a basic CRUD built with a PHP MVC Framework, also including HTML, CSS, Bootstrap, JavaScript, JQuery, AJAX and MySQL.
 
 ---
 ### STEPS TO RUN THE PROJECT
